@@ -3,76 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <title>HTML Audio and Video Practice</title>
   </head>
   <body>
-    <div class="main-container">
-      <div class="main-heading">
-        <h1 class="heading">Exploring Audio and Video Elements:</h1>
+    <header>
+      <h1>Exploring Audio and Video Elements</h1>
+    </header>
+
+    <section class="section">
+      <h2>Introduction Audio & Video:</h2>
+      <p>
+        "Hello and welcome! Today, we’re embarking on a new journey where we’ll
+        explore [your topic or idea name]. Here, you’ll find fresh insights,
+        thought-provoking ideas, and everything to inspire you and make your day
+        better. So, without further ado, let’s get started!"
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Video Section:</h2>
+      <div class="video-container">
+        <video controls poster="./Assets/Qamar Baltistani.png">
+          <source
+            src="./Assets/Ali Ali Haider ｜ 13 Rajab New Manqabat Qamar Baltistani 2024.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
       </div>
-      <div class="child-1">
-        <div class="heading-1">
-          <h6 class="top-heading">Audio Section:</h6>
-        </div>
-        <div class="audio">
-          <div class="parent">
-            <div class="audio-1">
-              <audio controls>
-                <source src="./Assets/Manqabat.mp3" type="audio/MP3" />
-              </audio>
-            </div>
-          </div>
-          <div class="parent">
-            <div class="audio-1">
-              <audio controls>
-                <source src="./Assets/Manqabat.mp3" type="audio/MP3" />
-              </audio>
-            </div>
-          </div>
-          <div class="parent">
-            <div class="audio-1">
-              <audio controls>
-                <source src="./Assets/Manqabat.mp3" type="audio/MP3" />
-              </audio>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Second-Section -->
-      <div class="child-2">
-        <div class="heading-1">
-          <h6 class="top-heading">Audio Section:</h6>
-        </div>
-        <div class="video">
-          <div class="parent-1">
-            <div class="video-1">
-              <video controls>
-                <source src="./Assets/Qamar Baltistani.mp4" type="video/MP4">
-              </video>
-            </div>
-          </div>
-          <div class="parent-1">
-            <div class="video-1">
-              <video controls>
-                <source src="./Assets/Qamar Baltistani.mp4" type="video/MP4">
-              </video>
-            </div>
-          </div>
-          <div class="parent-1">
-            <div class="video-1">
-              <video controls autoplay loop>
-                <source src="./Assets/Qamar Baltistani.mp4" type="video/MP4">
-              </video>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="foot">
-        <footer>
-          <p>Copyright &copy; 2025 Dynamo.</p>
-        </footer>
-      </div>
-    </div>
+    </section>
+
+    <section class="section">
+      <h2>Audio Section:</h2>
+      <audio controls>
+        <source src="./Assets/Manqabat.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <section class="section">
+      <h2>Section 4: Conclusion:</h2>
+      <p>
+        "Thank you for taking the time to listen/watch! If you enjoyed this
+        audio/video, don’t forget to share it with your friends and let us know
+        your thoughts. We’ll meet again next time with a new topic. Until then,
+        take care and goodbye!"
+      </p>
+    </section>
   </body>
 </html>
